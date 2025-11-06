@@ -85,6 +85,7 @@ TARGETS += i915
 TARGETS += intel-ice-firmware
 TARGETS += intel-ucode
 TARGETS += iscsi-tools
+TARGETS += joke-daemon
 TARGETS += kata-containers
 TARGETS += lldpd
 TARGETS += mdadm

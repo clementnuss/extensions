@@ -1,0 +1,11 @@
+version: v1alpha1
+metadata:
+  name: joke-daemon
+  version: {{ .VERSION }}
+  author: Talos Linux Tutorial
+  description: |
+    An example extension that demonstrates how to build and deploy a simple daemon in Talos Linux.
+    This daemon prints random programming jokes every 60 seconds to stdout.
+  compatibility:
+    talos:
+      version: ">= v1.8.0"

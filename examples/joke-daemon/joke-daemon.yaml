@@ -1,0 +1,7 @@
+name: joke-daemon
+container:
+  entrypoint: ./joke-daemon
+depends:
+  - network:
+      - addresses
+restart: always
